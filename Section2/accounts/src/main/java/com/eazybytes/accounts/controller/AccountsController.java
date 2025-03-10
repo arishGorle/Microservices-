@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping(path = "/api",produces = {MediaType.APPLICATION_JSON_VALUE})
 public class AccountsController {
 
-    @Autowired
+      @Autowired
     private IAccountsService iAccountsService;
 
      @PostMapping("/create")

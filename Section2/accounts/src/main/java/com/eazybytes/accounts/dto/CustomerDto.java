@@ -4,7 +4,7 @@ import lombok.Data;
 import lombok.Setter;
 
 @Data
-public class CustomerDto {
+public class CustomerDto  {
 
     private String name;
 
@@ -12,6 +12,6 @@ public class CustomerDto {
 
     private String mobileNumber;
 
-    private AccountsDto accountsDto;
+    private AccountsDto accountsDto ;
 
 }
